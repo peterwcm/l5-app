@@ -6,7 +6,7 @@
 
 <body>
     @section('menu')
-        {{--@include('partials.menu')--}}
+        @include('partials.menu')
     @show
 
     @yield('sub-menu')
