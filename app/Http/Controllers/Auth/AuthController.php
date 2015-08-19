@@ -12,6 +12,16 @@ class AuthController extends Controller {
 
 	public function __construct() { }
 
+    /**
+     * Show the login screen to the user.
+     *
+     * @return Response
+     */
+    public function login()
+    {
+        return view('auth.login');
+    }
+
     public function fbLogin() {
         $fb_user_id = Input::get('fb_user_id');
         $email = Input::get('email');

@@ -14,6 +14,7 @@
 use App\Models\User;
 
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
+Route::get('/login', array('as' => 'login', 'uses' => 'Auth\AuthController@login'));
 
 Route::controllers([
 	'password' => 'Auth\PasswordController',
