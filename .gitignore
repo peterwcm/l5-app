@@ -1,0 +1,15 @@
+# ignore MAC files
+.DS_Store
+# ignore PhpStorm files
+.idea/
+# ignore Windows files
+*.lnk
+Thumbs.db
+# ignore Laravel files
+/bootstrap/compiled.php
+/vendor
+composer.phar
+.env
+# Node.js
+npm-debug.log
+/node_modules

@@ -1,0 +1,70 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list>
+      <Biscuit>
+        <option name="date" value="1434900947000" />
+        <option name="domain" value="l5-app.dev" />
+        <option name="name" value="laravel_session" />
+        <option name="path" value="/" />
+        <option name="value" value="eyJpdiI6IkF3NHpiR1FZNUNzQ2hMdll4aThzWEE9PSIsInZhbHVlIjoibldWQ3Fydk1CVXdhOGVhYXpKR2NsYlNcLzAyVE9BWllFaHRWWFB0RmtaRDloTmZtWVVFT3NiNTUwVTFPMU9QOEhlVndMSDMyMHVNVFZhd0ZHRVIyYVp3PT0iLCJtYWMiOiJkMmFkNGE3ZmYxZmQ0OWM0NDk5ODNlNWFmOTU5YWY0NWQ3Mjg2YWM1NTdmYzMwZDExN2FhNDdlNjdiMjliM2RiIn0%3D" />
+      </Biscuit>
+    </list>
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://l5-app.dev" />
+  <option name="urlPath" value="/api/v1/auth/fb-login" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="api_key" />
+        <option name="value" value="Vrcb31iCKniGuDtmQX0wEG9ttLzlnjaG" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="fb_user_id" />
+        <option name="value" value="10153478490755962" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="email" />
+        <option name="value" value="peterwong.brisbane@gmail.com" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="first_name" />
+        <option name="value" value="Peter" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="last_name" />
+        <option name="value" value="Wong" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="avatar" />
+        <option name="value" value="https://graph.facebook.com/v2.2/10153478490755962/picture?type=normal" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="username" />
+        <option name="value" value="peterwong" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="password" />
+        <option name="value" value="LqyPngpS" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

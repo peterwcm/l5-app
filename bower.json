@@ -1,0 +1,24 @@
+{
+  "name": "l5-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/peterwcm/l5-app",
+  "authors": [
+    "L5 App <peterwong.brisbane@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "foundation": "~5.5.1"
+  }
+}
