@@ -1,7 +1,8 @@
 // Imports all core files + global project variables.
 
-// Foundation Settings
+// Foundation
 @import '../modules/settings';
+@import 'foundation';
 
 // Variables
 @import '../modules/fonts';
@@ -9,3 +10,10 @@
 
 // Mixins
 @import '../modules/mixins';
+
+// Typography
+@import 'typography';
+
+// Partials
+@import 'panels';
+@import 'footer';
