@@ -5,11 +5,6 @@
         <div class="child">
             <div class="row">
                 <div class="small-12 large-6 columns">
-                    Phone Image
-                </div>
-                <div class="small-12 large-6 columns">
-                    <p>Logo</p>
-                    <p>Description</p>
                     <form action="">
                         <div class="row collapse">
                             <div class="small-12 large-9 columns">
