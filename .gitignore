@@ -13,4 +13,6 @@ composer.phar
 # Node.js
 npm-debug.log
 /node_modules
+# AWS
 .elasticbeanstalk/
+.ebextensions/
