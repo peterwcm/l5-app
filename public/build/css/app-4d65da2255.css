@@ -6222,7 +6222,12 @@ body {
   background-color: #FFFFFF; }
 
 #footer_container {
+  min-height: 100px;
+  font-size: 12px;
+  color: #FFFFFF;
   background-color: #88C5CC; }
+  #footer_container a {
+    color: #FFFFFF; }
 
 .landing {
   height: 100%;

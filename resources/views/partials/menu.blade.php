@@ -1,8 +1,8 @@
 <div class="top-bar-background">
-    <nav class="top-bar row" data-topbar role="navigation" data-options="is_hover:false">
+    <nav class="top-bar" data-topbar role="navigation" data-options="is_hover:false">
         <ul class="title-area">
             <li class="name">
-                <a href="{{ url() }}">L5 App</a>
+                {{--<a href="{{ url() }}">L5 App</a>--}}
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
