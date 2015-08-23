@@ -13,3 +13,4 @@ composer.phar
 # Node.js
 npm-debug.log
 /node_modules
+.elasticbeanstalk/

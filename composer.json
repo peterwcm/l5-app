@@ -11,8 +11,6 @@
 		"barryvdh/laravel-ide-helper": "~2.0",
 		"barryvdh/laravel-cors": "0.5.x@dev",
 		"intervention/image": "~2.2",
-        "sammyk/laravel-facebook-sdk": "~2.0@dev",
-        "facebook/php-sdk-v4": "~5.0@dev",
 		"laravel/socialite": "^2.0"
 	},
 	"require-dev": {

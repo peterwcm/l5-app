@@ -152,7 +152,6 @@ return [
         'Barryvdh\Debugbar\ServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'Barryvdh\Cors\CorsServiceProvider',
-        'SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider',
         'Laravel\Socialite\SocialiteServiceProvider',
 
         /*
@@ -213,7 +212,6 @@ return [
          */
         'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
         'Debugbar' => 'Barryvdh\Debugbar\Facade',
-        'Facebook' => 'SammyK\LaravelFacebookSdk\FacebookFacade',
         'Socialize' => 'Laravel\Socialite\Facades\Socialite',
 
         /*
