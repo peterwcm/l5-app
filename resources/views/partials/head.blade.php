@@ -13,7 +13,7 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 <!-- Fonts -->
-<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 <!-- JS -->
 {{--{{ Minify::javascript('/js/vendor/modernizr.js') }}--}}
