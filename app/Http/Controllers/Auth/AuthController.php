@@ -13,6 +13,16 @@ class AuthController extends Controller {
 	public function __construct() { }
 
     /**
+     * Show the signup screen to the user.
+     *
+     * @return Response
+     */
+    public function signup()
+    {
+        return view('auth.signup');
+    }
+
+    /**
      * Show the login screen to the user.
      *
      * @return Response

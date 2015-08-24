@@ -14,7 +14,20 @@
 use App\Models\User;
 
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
-Route::get('login', array('as' => 'login', 'uses' => 'Auth\AuthController@login'));
+
+/*
+|--------------------------------------------------------------------------
+| Auth
+|--------------------------------------------------------------------------
+*/
+
+Route::get('signup', array('as' => 'signup', 'uses' => 'Auth\AuthController@signup'))->before('guest');
+//Route::post('signup', 'AuthController@doSignup')->before('guest');
+// login
+Route::get('login', array('as' => 'login', 'uses' => 'Auth\AuthController@login'))->before('guest');
+//Route::post('login', 'AuthController@doLogin')->before('guest');
+// logout
+Route::get('logout', array('as' => 'logout', 'uses' => 'AuthController@logout'))->before('auth');
 
 Route::controllers([
 	'password' => 'Auth\PasswordController',
