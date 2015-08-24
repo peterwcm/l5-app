@@ -66,8 +66,8 @@
                     </li>
                 @else
                     {{--<li class="active">{{ route('lessons.new', 'Teach') }}</li>--}}
-                    <li><a href="{{ route('signup') }}">Sign Up</a></li>
-                    <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('signup') }}">SIGN UP</a></li>
+                    <li><a href="{{ route('login') }}">LOGIN</a></li>
                 @endif
             </ul>
         </section>
