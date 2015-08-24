@@ -2,9 +2,9 @@
     <nav class="top-bar" data-topbar role="navigation" data-options="is_hover:false">
         <ul class="title-area">
             <li class="name">
-                {{--<a href="{{ url() }}">L5 App</a>--}}
+                <h1><a href="{{ url() }}"><span>Laravel</span></a></h1>
             </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
         <section class="top-bar-section">
