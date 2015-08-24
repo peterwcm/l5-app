@@ -21,9 +21,28 @@
   width: 100%;
   height: 500px;
 
+  .banner-h1,
+  .banner-h2 {
+    color: $white;
+    text-align: center;
+  }
+
+  .banner-h1 {
+    padding-top: 180px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight:700;
+  }
+
+  .banner-h2 {
+    padding-top:15px;
+    font-size:20px;
+    letter-spacing: 1px;
+  }
+
   video {
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
