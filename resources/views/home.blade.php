@@ -27,7 +27,7 @@
             <div class="featured-title">What's New</div>
             <div class="featured-content">
                 <a href="{{ url() }}">
-                    <div class="inline deal-box">
+                    <div class="featured-box">
                         <div class="featured-image" style="background-image: url(https://www.filepicker.io/api/file/3RC1MNURpWl68t1MDmNj);"></div>
                         <div class="featured-icon">
                             <span class="fa fa-chevron-right"></span>
@@ -36,7 +36,7 @@
                     </div>
                 </a>
                 <a href="{{ url() }}">
-                    <div class="inline deal-box">
+                    <div class="featured-box">
                         <div class="featured-image" style="background-image: url(https://www.filepicker.io/api/file/9MjXpLJRrCIdTb9tSHCQ);"></div>
                         <div class="featured-icon">
                             <span class="fa fa-chevron-right"></span>
@@ -45,7 +45,7 @@
                     </div>
                 </a>
                 <a href="{{ url() }}">
-                    <div class="inline deal-box">
+                    <div class="featured-box">
                         <div class="featured-image" style="background-image: url(https://www.filepicker.io/api/file/WMeFGMbuSRaoQHAt1grP);"></div>
                         <div class="featured-icon">
                             <span class="fa fa-chevron-right"></span>

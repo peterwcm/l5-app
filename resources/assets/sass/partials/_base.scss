@@ -18,3 +18,10 @@
 @import 'panels';
 @import 'menu';
 @import 'footer';
+@import 'buttons';
+
+.hover-fade-out {
+  &:hover {
+    opacity: .8;
+  }
+}

@@ -14,6 +14,10 @@
       background: transparent !important;
     }
 
+    a {
+      @extend .hover-fade-out;
+    }
+
     .right {
       text-align: right;
     }
@@ -65,9 +69,10 @@
   }
 
   #start-now {
+    @extend .hover-fade-out;
     width: 150px;
     height: 40px;
-    background-color: rgba(252,100,114,0.8);
+    background-color: rgba(252, 100, 114, 0.8);
     color: white;
     letter-spacing: 1px;
     text-align: center;
@@ -111,52 +116,50 @@
       -moz-transition: all 0.15s linear;
       transition: all 0.15s linear;
     }
+  }
 
-    .featured-image {
-      background-size: cover;
-      background-position: center;
-      width: 300px;
-      height: 150px;
-    }
+  .featured-box {
+    @extend .hover-fade-out;
+    display: inline-block;
+    zoom: 1;
+    width: 300px;
+    height: 240px;
+    margin: 10px;
+    -webkit-box-shadow: -2px 3px 5px 0 rgba(130, 130, 130, .3);
+    -moz-box-shadow: -2px 3px 5px 0 rgba(130, 130, 130, .3);
+    box-shadow: -2px 3px 5px 0 rgba(130, 130, 130, .3);
+    vertical-align: top;
+    cursor: pointer;
+  }
 
-    .featured-text {
-      margin-top: 12px;
-      font-size: 14px;
-      padding-left: 20px;
-      padding-right: 20px;
-      color: $dusty-gray;
-    }
+  .featured-image {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 150px;
+  }
 
-    .featured-icon {
-      margin: -20px auto 0;
-      width: 40px;
-      height: 40px;
-      border-radius: 20px;
-      background: $half-baked;
+  .featured-text {
+    margin-top: 12px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $dusty-gray;
+  }
 
-      .fa {
-        color: $white;
-        line-height: 45px;
-        margin-left: 2px;
-        font-weight: 300;
-        font-size: 12px;
-      }
+  .featured-icon {
+    margin: -20px auto 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: $half-baked;
+
+    .fa {
+      color: $white;
+      line-height: 45px;
+      margin-left: 2px;
+      font-weight: 300;
+      font-size: 12px;
     }
   }
-}
-
-.inline {
-  display: inline-block;
-  zoom: 1;
-}
-
-.deal-box {
-  width: 300px;
-  height: 240px;
-  margin: 10px;
-  -webkit-box-shadow: -2px 3px 5px 0 rgba(130,130,130,0.3);
-  -moz-box-shadow: -2px 3px 5px 0 rgba(130,130,130,0.3);
-  box-shadow: -2px 3px 5px 0 rgba(130,130,130,0.3);
-  vertical-align: top !important;
-  cursor: pointer;
 }

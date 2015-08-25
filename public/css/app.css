@@ -6247,3 +6247,6 @@ h5 {
   background-color: #88C5CC; }
   #footer_container a {
     color: #FFFFFF; }
+
+.hover-fade-out:hover {
+  opacity: .8; }
