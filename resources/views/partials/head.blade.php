@@ -10,7 +10,6 @@
 <!-- CSS -->
 <link media="all" type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
 <link media="all" type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 <!-- Fonts -->
 <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
