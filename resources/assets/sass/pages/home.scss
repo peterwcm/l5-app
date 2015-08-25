@@ -66,18 +66,34 @@
     background-color: rgba(252,100,114,0.8);
     color: white;
     letter-spacing: 1px;
-    margin: 0 auto;
     text-align: center;
     line-height: 40px;
-    margin-top: 30px !important;
+    margin: 30px auto 0;
     border-radius: 3px;
     cursor: pointer;
     padding-left: 12px;
     padding-right: 5px;
+
+    .fa {
+      margin-left:5px;
+      font-size:12px;
+    }
   }
 }
 
 .home-content {
   padding-top: 500px;
   width: 100%;
+}
+
+.featured-contents {
+  .featured-title {
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: $sirocco;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
 }

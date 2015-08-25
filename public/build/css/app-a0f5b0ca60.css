@@ -6215,6 +6215,12 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
+/**
+ * Fonts in alphabetical order.
+ */
+/**
+ * Colors in alphabetical order.
+ */
 body {
   font-family: "Lato", sans-serif; }
 
