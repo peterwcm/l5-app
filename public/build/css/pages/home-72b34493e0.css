@@ -6252,6 +6252,8 @@ h5 {
   .top-bar .top-bar-section li,
   .top-bar .top-bar-section a {
     background: transparent !important; }
+  .top-bar.expanded .title-area {
+    background: transparent; }
 
 .home-banner {
   overflow: hidden;

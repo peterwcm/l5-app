@@ -43,8 +43,10 @@ elixir(function(mix) {
     // Combine scripts.
     mix.scripts([
         paths.jquery + 'jquery.js',
-        paths.foundation + 'js/foundation.js'
-    ], 'public/js/app.js', './');
+        paths.foundation + 'js/foundation.js',
+        paths.foundation + 'js/foundation/foundation.topbar.js',
+        'app.js'
+    ], 'public/js/app.js');
 
     // Cache-busting for JS and CSS files.
     mix.version([
