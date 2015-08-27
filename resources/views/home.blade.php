@@ -1,9 +1,5 @@
 @extends('layouts.master')
 
-@section('extra_head')
-    <link href="{{ elixir('css/pages/home.css') }}" rel="stylesheet">
-@endsection
-
 @section('content')
     <div class="home-banner">
         <div class="banner-h1">DISCOVER &amp; SHARE</div>

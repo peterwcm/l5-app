@@ -10,6 +10,7 @@
 <!-- CSS -->
 <link media="all" type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
 <link media="all" type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
 <!-- Fonts -->
 <link href='//fonts.googleapis.com/css?family=Lato:100normal,100italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic' rel='stylesheet' type='text/css'>

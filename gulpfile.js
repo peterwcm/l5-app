@@ -24,21 +24,13 @@ elixir(function(mix) {
     mix.copy(paths.fontawesome + 'fonts/**', 'public/fonts');
 
     // Compile SASS files.
-    mix.sass(
+    mix.sass([
         'app.scss',
-        'public/css', {
+    ], 'public/css', {
         includePaths: [
             paths.foundation + 'scss/'
         ]
     });
-
-    mix.sass(
-        'pages/home.scss',
-        'public/css/pages', {
-            includePaths: [
-                paths.foundation + 'scss/'
-            ]
-        });
 
     // Combine scripts.
     mix.scripts([
@@ -51,7 +43,6 @@ elixir(function(mix) {
     // Cache-busting for JS and CSS files.
     mix.version([
         'css/app.css',
-        'css/pages/home.css',
         'js/app.js'
     ]);
 });
