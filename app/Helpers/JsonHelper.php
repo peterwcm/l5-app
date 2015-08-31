@@ -1,7 +1,9 @@
-<?php namespace App\Helpers;
+<?php
 
-class JsonHelper {
+namespace App\Helpers;
 
+class JsonHelper
+{
     /**
      * Get a success response for the API.
      *
@@ -36,5 +38,4 @@ class JsonHelper {
             ]
         ];
     }
-
 }

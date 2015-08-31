@@ -1,9 +1,11 @@
-<?php namespace App\Providers;
+<?php
+
+namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class HelperServiceProvider extends ServiceProvider {
-
+class HelperServiceProvider extends ServiceProvider
+{
 	/**
 	 * Register any helper services.
 	 *
@@ -15,5 +17,4 @@ class HelperServiceProvider extends ServiceProvider {
             return new \App\Helpers\JsonHelper;
         });
 	}
-
 }

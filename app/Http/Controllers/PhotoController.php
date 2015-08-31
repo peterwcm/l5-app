@@ -1,12 +1,14 @@
-<?php namespace App\Http\Controllers;
+<?php
+
+namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Models\Photo;
 
 use Illuminate\Http\Request;
 
-class PhotoController extends Controller {
-
+class PhotoController extends Controller
+{
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -81,5 +83,4 @@ class PhotoController extends Controller {
 	{
 		//
 	}
-
 }

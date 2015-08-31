@@ -14,7 +14,6 @@ class User extends Model implements AuthenticatableContract,
                                     AuthorizableContract,
                                     CanResetPasswordContract
 {
-
     use Authenticatable, Authorizable, CanResetPassword;
 
 	/**
@@ -43,5 +42,4 @@ class User extends Model implements AuthenticatableContract,
 	 * @var array
 	 */
 	protected $hidden = ['password', 'remember_token'];
-
 }

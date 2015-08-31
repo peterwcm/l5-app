@@ -1,10 +1,13 @@
-<?php namespace App\Http\Middleware;
+<?php
+
+namespace App\Http\Middleware;
 
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Events\Dispatcher;
 use Tymon\JWTAuth\JWTAuth;
 
-class TokenAuthenticate {
+class TokenAuthenticate
+{
     /**
      * @var \Illuminate\Routing\ResponseFactory
      */

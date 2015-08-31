@@ -1,10 +1,11 @@
-<?php namespace App\Http\Controllers\Dev;
+<?php
 
-class AuthController extends DevController {
+namespace App\Http\Controllers\Dev;
 
+class AuthController extends DevController
+{
     public function fbLogin()
     {
         return \View::make('dev.fb-login');
     }
-
 }

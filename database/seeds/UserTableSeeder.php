@@ -3,8 +3,8 @@
 use Illuminate\Database\Seeder;
 use Laracasts\TestDummy\Factory as TestDummy;
 
-class UserTableSeeder extends Seeder {
-
+class UserTableSeeder extends Seeder
+{
     public function run()
     {
         // Disable foreign key check for this connection.
@@ -27,5 +27,4 @@ class UserTableSeeder extends Seeder {
         // Dummy users.
         TestDummy::times(10)->create('App\Models\User');
     }
-
 }

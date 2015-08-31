@@ -1,7 +1,9 @@
-<?php namespace App\Http\Controllers;
+<?php
 
-class HomeController extends Controller {
+namespace App\Http\Controllers;
 
+class HomeController extends Controller
+{
 	/*
 	|--------------------------------------------------------------------------
 	| Home Controller
@@ -30,5 +32,4 @@ class HomeController extends Controller {
 	{
 		return view('home');
 	}
-
 }
