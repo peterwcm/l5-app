@@ -10,7 +10,7 @@ use \JWTAuth;
 use \JsonHelper;
 use App\Models\User;
 
-class AuthController extends Controller
+class TokenController extends Controller
 {
 	public function __construct() { }
 
