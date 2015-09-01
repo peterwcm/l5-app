@@ -6238,7 +6238,21 @@ h5 {
   background-color: #FFFFFF; }
 
 .top-bar {
-  padding: 0 25px; }
+  padding: 0 25px;
+  width: 100%; }
+  .top-bar.landing {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: transparent;
+    z-index: 999; }
+    .top-bar.landing .top-bar-section li,
+    .top-bar.landing .top-bar-section a {
+      background: transparent !important; }
+    .top-bar.landing .top-bar-section .right {
+      text-align: right; }
+    .top-bar.landing.expanded .title-area {
+      background: transparent; }
 
 #footer_container {
   min-height: 100px;
@@ -6248,23 +6262,8 @@ h5 {
   #footer_container a {
     color: #FFFFFF; }
 
-.hover-fade-out:hover, .top-bar .top-bar-section a:hover, .home-banner #start-now:hover, .featured-info .featured-box:hover {
+.hover-fade-out:hover, .top-bar.landing .top-bar-section a:hover, .home-banner #start-now:hover, .featured-info .featured-box:hover {
   opacity: .8; }
-
-.top-bar {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 100%;
-  background: transparent;
-  z-index: 999; }
-  .top-bar .top-bar-section li,
-  .top-bar .top-bar-section a {
-    background: transparent !important; }
-  .top-bar .top-bar-section .right {
-    text-align: right; }
-  .top-bar.expanded .title-area {
-    background: transparent; }
 
 .home-banner {
   overflow: hidden;

@@ -1,3 +1,33 @@
 .top-bar {
   padding: 0 25px;
+  width: 100%;
+
+  &.landing {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: transparent;
+    z-index: 999;
+
+    .top-bar-section {
+      li,
+      a {
+        background: transparent !important;
+      }
+
+      a {
+        @extend .hover-fade-out;
+      }
+
+      .right {
+        text-align: right;
+      }
+    }
+
+    &.expanded {
+      .title-area {
+        background: transparent;
+      }
+    }
+  }
 }

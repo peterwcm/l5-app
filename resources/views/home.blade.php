@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('menu')
+    @include('partials.menu-landing')
+@show
+
 @section('content')
     <div class="home-banner">
         <div class="banner-h1">DISCOVER &amp; SHARE</div>
