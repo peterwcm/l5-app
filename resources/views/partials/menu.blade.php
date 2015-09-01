@@ -11,7 +11,13 @@
             <!-- Right Nav Section -->
             <ul class="right">
                 @if(Auth::check())
-                    <li><a href="{{ url() }}">Logged In!</a></li>
+                    <ul class="right">
+                        <li class="has-dropdown"><a>Name</a>
+                            <ul class="dropdown">
+                                <li><a href="{{ route('logout') }}">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 @else
                     {{--<li class="active">{{ route('lessons.new', 'Teach') }}</li>--}}
                     <li><a href="{{ route('signup') }}">SIGN UP</a></li>
