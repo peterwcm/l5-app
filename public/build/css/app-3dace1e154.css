@@ -6240,6 +6240,8 @@ h5 {
 .top-bar {
   padding: 0 25px;
   width: 100%; }
+  .top-bar.expanded {
+    background: #333333; }
   .top-bar.landing {
     position: absolute;
     top: 5px;
