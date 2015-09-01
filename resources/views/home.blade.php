@@ -7,7 +7,7 @@
 @section('content')
     <div class="home-banner">
         <div class="banner-h1">DISCOVER &amp; SHARE</div>
-        <div class="banner-h2">Experience the most amazing local adventures in your city.</div>
+        <div class="banner-h2">Experience new activities with sports enthusiasts in your city.</div>
 
         <a href="{{ url() }}">
             <div id="start-now">
