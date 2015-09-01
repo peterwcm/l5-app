@@ -1,9 +1,11 @@
-<?php namespace App\Http\Middleware;
+<?php
+
+namespace App\Http\Middleware;
 
 use Closure;
 
-class VerifyApiKey {
-
+class VerifyApiKey
+{
 	/**
 	 * Handle an incoming request.
 	 *
@@ -22,5 +24,4 @@ class VerifyApiKey {
 
 		return $next($request);
 	}
-
 }

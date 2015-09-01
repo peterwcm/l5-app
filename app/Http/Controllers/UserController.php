@@ -1,4 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php
+
+namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -7,8 +9,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use \JsonHelper;
 
-class UserController extends Controller {
-
+class UserController extends Controller
+{
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -98,5 +100,4 @@ class UserController extends Controller {
 	{
 		//
 	}
-
 }

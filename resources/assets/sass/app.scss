@@ -1,14 +1,2 @@
-// Foundation
-@import "settings";
-@import 'foundation';
-
-// Variables
-@import "palette";
-@import "vars";
-
-// Helpers
-@import "helper/helper";
-@import "helper/util";
-
-// Landing page
-@import "modules/landing";
+@import 'partials/base';
+@import 'sections/home';

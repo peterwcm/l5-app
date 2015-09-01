@@ -1,15 +1,20 @@
-<hr />
-<div class="large-12 columns">
-    <div class="panel row">
-        <div class="left spaced light">
-            <b>L5 App &copy; 2015</b>
-        </div>
-        <div class="right spaced light">
-            {{--<a href="{{ URL::route('about.about-us') }}">about</a> &nbsp; &nbsp; &nbsp;--}}
-            {{--<a href="{{ URL::route('about.contact') }}">contact</a> &nbsp; &nbsp; &nbsp;--}}
-            {{--<a href="{{ URL::route('about.terms') }}">terms</a> &nbsp; &nbsp; &nbsp;--}}
-            {{--<a href="{{ URL::route('about.privacy') }}">privacy</a>--}}
+<div class="row">
+    <div class="small-12 columns">
+        <div class="left">L5 App &copy; 2015</div>
+        <div class="right">
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">terms</a>
+            <a href="#">privacy</a>
         </div>
     </div>
 </div>
-<hr />
+<div class="row">
+    <div class="small-12 columns">
+        <a class="fa fa-facebook" href="https://www.facebook.com/" target="_blank"></a>
+        <a class="fa fa-twitter" href="https://twitter.com/" target="_blank"></a>
+        <a class="fa fa-instagram" href="http://instagram.com/" target="_blank"></a>
+        <a class="fa fa-pinterest" href="http://pinterest.com/" target="_blank"></a>
+        <a class="fa fa-linkedin" href="https://www.linkedin.com/company/" target="_blank"></a>
+    </div>
+</div>

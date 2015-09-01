@@ -9,7 +9,12 @@ Thumbs.db
 /bootstrap/compiled.php
 /vendor
 composer.phar
+Homestead.yaml
+Homestead.json
 .env
 # Node.js
 npm-debug.log
 /node_modules
+# AWS
+.elasticbeanstalk/
+.ebextensions/

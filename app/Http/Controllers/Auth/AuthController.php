@@ -1,4 +1,6 @@
-<?php namespace App\Http\Controllers\Auth;
+<?php
+
+namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use \Input;
@@ -8,9 +10,29 @@ use \JWTAuth;
 use \JsonHelper;
 use App\Models\User;
 
-class AuthController extends Controller {
-
+class AuthController extends Controller
+{
 	public function __construct() { }
+
+    /**
+     * Show the signup screen to the user.
+     *
+     * @return Response
+     */
+    public function signup()
+    {
+        return view('auth.signup');
+    }
+
+    /**
+     * Show the login screen to the user.
+     *
+     * @return Response
+     */
+    public function login()
+    {
+        return view('auth.login');
+    }
 
     public function fbLogin() {
         $fb_user_id = Input::get('fb_user_id');

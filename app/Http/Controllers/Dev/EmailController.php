@@ -1,7 +1,9 @@
-<?php namespace App\Http\Controllers\Dev;
+<?php
 
-class EmailController extends DevController {
+namespace App\Http\Controllers\Dev;
 
+class EmailController extends DevController
+{
     public function showPasswordReminder()
     {
         return View::make('emails.auth.reminder', array(
@@ -17,5 +19,4 @@ class EmailController extends DevController {
             'user_id' => 1
         ));
     }
-
 }

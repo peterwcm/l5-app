@@ -1,0 +1,27 @@
+// Imports all core files + global project variables.
+
+// Foundation
+@import '../modules/settings';
+@import 'foundation';
+
+// Variables
+@import '../modules/fonts';
+@import '../modules/colors';
+
+// Mixins
+@import '../modules/mixins';
+
+// Typography
+@import 'typography';
+
+// Partials
+@import 'panels';
+@import 'menu';
+@import 'footer';
+@import 'buttons';
+
+.hover-fade-out {
+  &:hover {
+    opacity: .8;
+  }
+}
