@@ -41,16 +41,16 @@
 			"php artisan optimize"
 		],
         "pre-update-cmd": [
-          "php artisan clear-compiled"
+            "php artisan clear-compiled"
         ],
         "post-update-cmd": [
-          "php artisan optimize"
+            "php artisan optimize"
         ],
 		"post-create-project-cmd": [
 			"php -r \"copy('.env.example', '.env');\""
 		],
         "post-create-project-cmd": [
-          "php artisan key:generate"
+            "php artisan key:generate"
         ]
 	},
 	"config": {
