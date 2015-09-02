@@ -17,4 +17,8 @@ npm-debug.log
 /node_modules
 # AWS
 .elasticbeanstalk/
-.ebextensions/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
