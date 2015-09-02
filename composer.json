@@ -10,6 +10,7 @@
 		"tymon/jwt-auth": "0.5.*",
 		"barryvdh/laravel-cors": "0.5.x@dev",
         "barryvdh/laravel-debugbar": "~2.0",
+        "barryvdh/laravel-ide-helper": "~2.0",
 		"intervention/image": "~2.2",
 		"laravel/socialite": "^2.0"
 	},
@@ -19,8 +20,7 @@
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
         "laracasts/testdummy": "~2.0",
-		"laracasts/generators": "~1.1",
-        "barryvdh/laravel-ide-helper": "~2.0"
+		"laracasts/generators": "~1.1"
 	},
 	"autoload": {
 		"classmap": [
