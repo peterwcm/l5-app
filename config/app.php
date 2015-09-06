@@ -212,7 +212,7 @@ return [
          */
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-        'Socialize' => Laravel\Socialite\Facades\Socialite::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
         /*
          * Project Aliases

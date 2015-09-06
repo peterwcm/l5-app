@@ -38,7 +38,7 @@ return [
     'facebook' => [
         'client_id' => env('FB_CLIENT_ID'),
         'client_secret' => env('FB_CLIENT_SECRET'),
-        'redirect' => 'http://l5-app.dev/api/v1/auth/fb-login',
+        'redirect' => 'http://l5-app.dev/auth/fb-login',
     ],
 
 ];
