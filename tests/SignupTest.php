@@ -6,6 +6,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class SignupTest extends TestCase
 {
+    use DatabaseTransactions;
+
     /**
      * Testing the front-end of the sign up page.
      *
@@ -25,8 +27,13 @@ class SignupTest extends TestCase
     public function testSignupForm()
     {
         $this->visit('/signup')
-            ->type('SIGN UP', 'name')
+            ->type('paulwhite@l5-app.com', 'email')
+            ->type('password', 'password')
+            ->type('password', 'confirm_password')
+            ->type('Paul', 'first_name')
+            ->type('White', 'last_name')
             ->press('Sign Up')
+            ->seeInDatabase('users', ['email' => 'paulwhite@l5-app.com'])
             ->seePageIs('/dashboard');
     }
 }
