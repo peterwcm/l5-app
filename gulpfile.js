@@ -25,7 +25,7 @@ elixir(function(mix) {
 
     // Compile SASS files.
     mix.sass([
-        'app.scss',
+        'app.scss'
     ], 'public/css', {
         includePaths: [
             paths.foundation + 'scss/'
@@ -34,7 +34,8 @@ elixir(function(mix) {
 
     // Combine scripts.
     mix.scripts([
-        paths.jquery + 'jquery.js',
+        paths.foundation + 'js/vendor/jquery.js',
+        paths.foundation + 'js/vendor/modernizr.js',
         paths.foundation + 'js/foundation.js',
         paths.foundation + 'js/foundation/foundation.topbar.js',
         'app.js'
