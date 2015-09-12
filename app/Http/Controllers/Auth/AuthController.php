@@ -79,14 +79,14 @@ class AuthController extends Controller
     {
         return Validator::make($data, [
             'first_name' => 'required|max:'
-                . Config::get('validate.first_name_length_max'),
+                . config('validate.first_name_length_max'),
             'last_name' => 'required|max:'
-                . Config::get('validate.last_name_length_max'),
+                . config('validate.last_name_length_max'),
             'email' => 'required|email|max:'
-                . Config::get('validate.email_length_max') . '|unique:users',
+                . config('validate.email_length_max') . '|unique:users',
             'password' => 'required|confirmed|min:'
-                . Config::get('validate.password_length_min')
-                . '|max:' . Config::get('validate.password_length_max'),
+                . config('validate.password_length_min')
+                . '|max:' . config('validate.password_length_max'),
         ]);
     }
 
