@@ -13,13 +13,15 @@
 
     <!-- check for flash notification message -->
     @if(Session::has('message'))
-        <div data-alert class="alert-box info" style="margin-bottom: 0;">
+        <div data-alert class="alert-box info">
             {{ Session::get('message') }}
             <a href="javascript:void(0)" class="close">&times;</a>
         </div>
     @endif
 
-    @yield('content')
+    <div class="page">
+        @yield('content')
+    </div>
 
     <div id="footer_container">
         @section('footer')

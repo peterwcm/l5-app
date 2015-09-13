@@ -14,15 +14,12 @@
 // Typography
 @import 'typography';
 
+// Structure
+@import 'structure';
+
 // Partials
 @import 'panels';
 @import 'menu';
 @import 'footer';
 @import 'buttons';
 @import 'forms';
-
-.hover-fade-out {
-  &:hover {
-    opacity: .8;
-  }
-}

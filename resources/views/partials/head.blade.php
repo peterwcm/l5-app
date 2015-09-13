@@ -15,10 +15,6 @@
 <!-- Fonts -->
 <link href='//fonts.googleapis.com/css?family=Lato:100normal,100italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic' rel='stylesheet' type='text/css'>
 
-<!-- JS -->
-{{--{{ Minify::javascript('/js/vendor/modernizr.js') }}--}}
-{{--{{ Minify::javascript('/js/vendor/jquery.js') }}--}}
-
 <!-- Extra CSS -->
 @yield('extra_head')
 

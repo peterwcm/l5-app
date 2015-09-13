@@ -1,3 +1,6 @@
+.hover-fade-out:hover, .top-bar.landing .top-bar-section a:hover, .home-banner #start-now:hover, .featured-info .featured-box:hover {
+  opacity: .8; }
+
 meta.foundation-version {
   font-family: "/5.5.2/"; }
 
@@ -6236,7 +6239,11 @@ h4,
 h5 {
   font-family: "Lato", sans-serif; }
 
+.page {
+  margin: 20px auto; }
+
 .panel {
+  margin-bottom: 0;
   background-color: #FFFFFF; }
 
 .top-bar {
@@ -6265,6 +6272,10 @@ h5 {
   background-color: #88C5CC; }
   #footer_container a {
     color: #FFFFFF; }
+
+button,
+.button {
+  margin-bottom: 0; }
 
 input[type="text"],
 input[type="password"],
@@ -6305,9 +6316,6 @@ textarea:focus {
 input.pretty-input {
   height: 40px;
   padding: 10px; }
-
-.hover-fade-out:hover, .top-bar.landing .top-bar-section a:hover, .home-banner #start-now:hover, .featured-info .featured-box:hover {
-  opacity: .8; }
 
 .home-banner {
   overflow: hidden;
