@@ -30,17 +30,17 @@ Route::get('logout', array('as' => 'logout', 'uses' => 'Auth\AuthController@getL
 Route::get('signup', array('as' => 'signup', 'uses' => 'Auth\AuthController@getSignup'));
 Route::post('auth/signup', 'Auth\AuthController@postSignup');
 
-//Route::get('signup', array('as' => 'signup', 'uses' => 'Auth\AuthController@signup'));
-////Route::post('signup', 'AuthController@doSignup')->before('guest');
-//// login
-//Route::get('login', array('as' => 'login', 'uses' => 'Auth\AuthController@login'));
-////Route::post('login', 'AuthController@doLogin')->before('guest');
-//// logout
-//Route::get('logout', array('as' => 'logout', 'uses' => 'AuthController@logout'));
-
 Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
+
+/*
+|--------------------------------------------------------------------------
+| User
+|--------------------------------------------------------------------------
+*/
+
+Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'UserController@getDashboard'));
 
 /*
 |--------------------------------------------------------------------------

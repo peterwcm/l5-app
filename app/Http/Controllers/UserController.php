@@ -11,6 +11,11 @@ use \JsonHelper;
 
 class UserController extends Controller
 {
+    public function getDashboard()
+    {
+        return view('user.dashboard');
+    }
+
 	/**
 	 * Display a listing of the resource.
 	 *
