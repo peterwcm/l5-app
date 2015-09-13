@@ -6,7 +6,7 @@
 
   .banner-h1,
   .banner-h2 {
-    color: $white;
+    color: $color-text-inverse;
     text-align: center;
   }
 
@@ -14,12 +14,12 @@
     padding-top: 180px;
     font-size: 45px;
     letter-spacing: 2px;
-    font-weight:700;
+    font-weight: 700;
   }
 
   .banner-h2 {
-    padding-top:15px;
-    font-size:20px;
+    padding-top: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
   }
 
@@ -68,7 +68,7 @@
     padding-top: 50px;
     margin: 0 auto;
     text-align: center;
-    color: $sirocco;
+    color: $color-text-dark;
     font-size: 28px;
     letter-spacing: 1px;
     font-weight: 800;
@@ -112,7 +112,7 @@
     font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
-    color: $dusty-gray;
+    color: $color-text-light;
   }
 
   .featured-icon {
@@ -120,10 +120,10 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background: $half-baked;
+    background: $color-icon-normal;
 
     .fa {
-      color: $white;
+      color: $color-text-inverse;
       line-height: 45px;
       margin-left: 2px;
       font-weight: 300;

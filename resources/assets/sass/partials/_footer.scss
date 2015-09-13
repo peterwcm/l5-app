@@ -1,10 +1,10 @@
 #footer_container {
   min-height: 100px;
   font-size: 12px;
-  color: $white;
-  background-color: $half-baked;
+  color: $color-text-inverse;
+  background-color: $color-footer-normal;
 
   a {
-    color: $white;
+    color: $color-text-inverse;
   }
 }

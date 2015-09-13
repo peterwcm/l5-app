@@ -1,11 +1,11 @@
 body {
-  font-family: $lato;
+  font-family: $font-default;
   font-size: 14px;
-  color: $abbey;
+  color: $color-text-normal;
 }
 
 .top-bar-section ul li > a {
-  font-family: $lato;
+  font-family: $font-default;
 }
 
 h1,
@@ -13,5 +13,5 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: $lato;
+  font-family: $font-default;
 }

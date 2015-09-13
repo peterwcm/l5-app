@@ -3,20 +3,20 @@
   width: 100%;
 
   &.expanded {
-    background: $mine-shaft;
+    background: $color-menu-normal;
   }
 
   &.landing {
     position: absolute;
     top: 5px;
     left: 0;
-    background: transparent;
+    background: $color-menu-landing;
     z-index: 999;
 
     .top-bar-section {
       li,
       a {
-        background: transparent !important;
+        background: $color-menu-landing !important;
       }
 
       a {
@@ -30,7 +30,7 @@
 
     &.expanded {
       .title-area {
-        background: transparent;
+        background: $color-menu-landing;
       }
     }
   }

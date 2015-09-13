@@ -2,4 +2,8 @@
  * Fonts in alphabetical order.
  */
 
-$lato: 'Lato', sans-serif;
+// Descriptive variables
+$font-lato: 'Lato', sans-serif;
+
+// Functional variables
+$font-default: $font-lato;

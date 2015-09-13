@@ -2,13 +2,37 @@
  * Colors in alphabetical order.
  */
 
-$abbey: #565A5C;
-$black: #000000;
-$dusty-gray: #999999;
-$half-baked: #88C5CC;
-$mine-shaft: #333333;
-$neptune: #6FACB3;
-$silver: #C4C4C4;
-$silver-chalice: #aaa;
-$sirocco: #6C6E6E;
-$white: #FFFFFF;
+// Descriptive variables
+$color-abbey: #565A5C;
+$color-black: #000000;
+$color-dusty-gray: #999999;
+$color-half-baked: #88C5CC;
+$color-mine-shaft: #333333;
+$color-neptune: #6FACB3;
+$color-silver: #C4C4C4;
+$color-silver-chalice: #AAAAAA;
+$color-sirocco: #6C6E6E;
+$color-white: #FFFFFF;
+
+// Functional variables
+
+// Text
+$color-text-normal: $color-abbey;
+$color-text-light: $color-dusty-gray;
+$color-text-dark: $color-sirocco;
+$color-text-inverse: $color-white;
+
+// Sections
+$color-panel-normal: $color-white;
+
+// Forms
+$color-input-normal: $color-white;
+$color-input-focus: $color-white;
+$color-input-border-normal: $color-silver;
+$color-input-border-focus: $color-silver-chalice;
+
+// Elements
+$color-menu-normal: $color-mine-shaft;
+$color-menu-landing: transparent;
+$color-footer-normal: $color-half-baked;
+$color-icon-normal: $color-half-baked;
