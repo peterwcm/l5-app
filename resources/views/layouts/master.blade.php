@@ -19,9 +19,7 @@
         </div>
     @endif
 
-    <div class="page">
-        @yield('content')
-    </div>
+    @yield('content')
 
     <div id="footer_container">
         @section('footer')
