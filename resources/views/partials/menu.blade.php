@@ -14,6 +14,7 @@
                     <ul class="right">
                         <li class="has-dropdown"><a>{{ Auth::user()->first_name }}</a>
                             <ul class="dropdown">
+                                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                                 <li><a href="{{ route('logout') }}">Logout</a></li>
                             </ul>
                         </li>
