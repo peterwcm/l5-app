@@ -12,7 +12,7 @@
             <ul class="right">
                 @if(Auth::check())
                     <ul class="right">
-                        <li class="has-dropdown"><a>Name</a>
+                        <li class="has-dropdown"><a>{{ Auth::user()->first_name }}</a>
                             <ul class="dropdown">
                                 <li><a href="{{ route('logout') }}">Logout</a></li>
                             </ul>
