@@ -1,0 +1,6 @@
+.alert-box {
+  &.alert {
+    background-color: $color-alert-box-alert;
+    border-color: $color-alert-box-alert;
+  }
+}
