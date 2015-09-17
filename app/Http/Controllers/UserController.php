@@ -11,6 +11,14 @@ use \JsonHelper;
 
 class UserController extends Controller
 {
+    /**
+     * Create a new user controller instance.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function getDashboard()
     {
         return view('user.dashboard');
