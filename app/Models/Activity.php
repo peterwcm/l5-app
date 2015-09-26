@@ -12,4 +12,13 @@ class Activity extends Model
      * @var string
      */
     protected $table = 'activities';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'title', 'description',
+    ];
 }
