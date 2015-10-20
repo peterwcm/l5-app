@@ -14,10 +14,10 @@ class UserTableSeeder extends Seeder
         // Reset AUTO_INCREMENT.
         DB::table('users')->truncate();
 
-        // Dev user.
+        // Dev user, password = password
         App\Models\User::create([
             'email' => 'peterwong.brisbane@gmail.com',
-            'password' => '$2y$10$t6q81nz.XrMrh20NHDvxUu/szwHBwgzPd.01e8uuP0qVy0mPa6H/e',
+            'password' => '$2y$10$Ls7NCVSOy1bbYW58/X.Gt.8v0ablPjOxxuZES31YnFulvgeydOYHq',
             'first_name' => 'L5',
             'last_name' => 'App',
             'username' => 'l5-app',
