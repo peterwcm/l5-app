@@ -1,10 +1,29 @@
 #footer_container {
-  min-height: 100px;
+  position: relative;
+  min-height: 200px;
   font-size: 12px;
   color: $color-text-inverse;
   background-color: $color-footer-normal;
 
   a {
     color: $color-text-inverse;
+  }
+
+  .social {
+    position: absolute;
+    bottom: 0;
+    max-width: none;
+    height: 40px;
+    background-color: $color-footer-social;
+
+    .fa {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+
+      &::before {
+        font-size: 20px;
+      }
+    }
   }
 }
