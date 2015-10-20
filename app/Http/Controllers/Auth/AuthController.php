@@ -82,7 +82,7 @@ class AuthController extends Controller
                 . config('validate.last_name_length_max'),
             'email' => 'required|email|max:'
                 . config('validate.email_length_max') . '|unique:users',
-            'password' => 'required|confirmed|min:'
+            'password' => 'required|min:'
                 . config('validate.password_length_min')
                 . '|max:' . config('validate.password_length_max'),
         ]);
