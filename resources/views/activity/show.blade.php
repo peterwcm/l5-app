@@ -17,7 +17,10 @@
                         </div>
                     @endif
 
-                        <h1>{{ $activity->title }}</h1>
+                    <h1>{{ $activity->title }}</h1>
+                    <p>
+                        {{ $activity->description }}
+                    </p>
                 </div>
             </div>
         </div>
