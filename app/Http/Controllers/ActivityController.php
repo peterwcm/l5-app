@@ -18,7 +18,7 @@ class ActivityController extends Controller
     public function index()
     {
         $activities = Activity::all();
-        return response()->json(\JsonHelper::getSuccessResponse($activities));
+        return View::make('activity.index')->with('activities', $activities);
     }
 
     /**
