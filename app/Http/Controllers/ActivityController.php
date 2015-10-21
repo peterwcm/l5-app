@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use \View;
+use \App;
 use App\Http\Requests;
 use App\Models\Activity;
-
 use Illuminate\Http\Request;
 
 class ActivityController extends Controller
@@ -49,7 +50,11 @@ class ActivityController extends Controller
      */
     public function show($id)
     {
-        //
+        $activity = Activity::find($id);
+        if ($activity)
+            return View::make('activity.show')->with('activity', $activity);
+        else
+            App::abort(404);
     }
 
     /**
