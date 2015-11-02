@@ -8,3 +8,8 @@ $factory('App\Models\User', [
     'username' => $faker->unique()->userName,
     'is_email_verified' => 1,
 ]);
+
+$factory('App\Models\Activity', [
+    'title' => $faker->sentence($nbWords = 7),
+    'description' => $faker->paragraph($nbSentences = 5),
+]);
