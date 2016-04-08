@@ -3,7 +3,7 @@
 @section('content')
     <div class="page">
         <div class="row">
-            <div class="columns small-12 medium-6 small-centered">
+            <div class="columns small-12 small-centered">
                 <div class="panel">
                     @if (count($errors) > 0)
                         <div data-alert class="alert-box alert">

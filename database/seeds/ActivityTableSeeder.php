@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Laracasts\TestDummy\Factory as TestDummy;
 
 class ActivityTableSeeder extends Seeder
 {
@@ -17,5 +18,8 @@ class ActivityTableSeeder extends Seeder
             'title' => 'Social Badminton Game',
             'description' => 'Social badminton game on this friday.',
         ]);
+
+        // Dummy activities.
+        TestDummy::times(10)->create('App\Models\Activity');
     }
 }

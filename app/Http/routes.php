@@ -48,7 +48,7 @@ Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'UserController@get
 |--------------------------------------------------------------------------
 */
 
-Route::resource('activity', 'ActivityController');
+Route::resource('activities', 'ActivityController');
 
 /*
 |--------------------------------------------------------------------------
